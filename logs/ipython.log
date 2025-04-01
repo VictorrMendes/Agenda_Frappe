@@ -1,0 +1,6 @@
+2025-03-31 22:57:44,975 INFO ipython === bench console session ===
+2025-03-31 22:57:44,976 INFO ipython import frappe
+frappe.get_meta("Agenda").get_fieldnames()
+2025-03-31 22:57:44,976 INFO ipython import frappe
+frappe.get_meta("Agenda").fields
+2025-03-31 22:57:44,976 INFO ipython === session end ===

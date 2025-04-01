@@ -1,0 +1,110 @@
+2025-03-31 21:52:09,195 Worker rq:worker:f814da4fb8ed49f9a92760457b1bb1d4 started with PID 32237, version 1.15.1
+2025-03-31 21:52:09,196 Subscribing to channel rq:pubsub:f814da4fb8ed49f9a92760457b1bb1d4
+2025-03-31 21:52:09,197 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 21:52:09,198 Cleaning registries for queue: home-victor-Projeto-frappe-bench:short
+2025-03-31 21:52:09,201 Cleaning registries for queue: home-victor-Projeto-frappe-bench:default
+2025-03-31 21:52:09,202 Cleaning registries for queue: home-victor-Projeto-frappe-bench:long
+2025-03-31 21:52:24,826 Worker f814da4fb8ed49f9a92760457b1bb1d4 [PID 32237]: warm shut down requested
+2025-03-31 21:52:24,828 Unsubscribing from channel rq:pubsub:f814da4fb8ed49f9a92760457b1bb1d4
+2025-03-31 21:52:28,720 Worker rq:worker:c48c641d661c40848b821ef47632eeae started with PID 32684, version 1.15.1
+2025-03-31 21:52:28,721 Subscribing to channel rq:pubsub:c48c641d661c40848b821ef47632eeae
+2025-03-31 21:52:28,724 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 21:55:01,403 Worker c48c641d661c40848b821ef47632eeae [PID 32684]: warm shut down requested
+2025-03-31 21:55:01,405 Unsubscribing from channel rq:pubsub:c48c641d661c40848b821ef47632eeae
+2025-03-31 22:00:34,184 Worker rq:worker:0fe9a3cdc5da42539dab41c75efd8c3e started with PID 34394, version 1.15.1
+2025-03-31 22:00:34,184 Subscribing to channel rq:pubsub:0fe9a3cdc5da42539dab41c75efd8c3e
+2025-03-31 22:00:34,186 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 22:02:19,044 Worker 0fe9a3cdc5da42539dab41c75efd8c3e [PID 34394]: warm shut down requested
+2025-03-31 22:02:19,048 Unsubscribing from channel rq:pubsub:0fe9a3cdc5da42539dab41c75efd8c3e
+2025-03-31 22:03:54,072 Worker rq:worker:a8b5c416b52e46b0b704c3bfaa8bd14c started with PID 35245, version 1.15.1
+2025-03-31 22:03:54,072 Subscribing to channel rq:pubsub:a8b5c416b52e46b0b704c3bfaa8bd14c
+2025-03-31 22:03:54,076 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 22:05:22,678 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: victo.mendes.souza@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='agenda.localhost', user='Administrator') (agenda.localhost::107209ff-adfe-4a30-877a-e092050ab42e)
+2025-03-31 22:05:24,235 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::107209ff-adfe-4a30-877a-e092050ab42e)
+2025-03-31 22:05:24,235 Result is kept for 600 seconds
+2025-03-31 22:05:24,253 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'victo.mendes.souza@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='agenda.localhost', user='Administrator') (agenda.localhost::fcf724ae-8d17-4977-b427-d3a221d2cad3)
+2025-03-31 22:05:24,741 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::fcf724ae-8d17-4977-b427-d3a221d2cad3)
+2025-03-31 22:05:24,741 Result is kept for 600 seconds
+2025-03-31 22:08:00,773 Worker a8b5c416b52e46b0b704c3bfaa8bd14c [PID 35245]: warm shut down requested
+2025-03-31 22:08:00,775 Unsubscribing from channel rq:pubsub:a8b5c416b52e46b0b704c3bfaa8bd14c
+2025-03-31 22:10:39,589 Worker rq:worker:25fa9436c8eb41c992b444e8142808c3 started with PID 37121, version 1.15.1
+2025-03-31 22:10:39,590 Subscribing to channel rq:pubsub:25fa9436c8eb41c992b444e8142808c3
+2025-03-31 22:10:39,592 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 22:10:39,593 Cleaning registries for queue: home-victor-Projeto-frappe-bench:short
+2025-03-31 22:10:39,595 Cleaning registries for queue: home-victor-Projeto-frappe-bench:default
+2025-03-31 22:10:39,597 Cleaning registries for queue: home-victor-Projeto-frappe-bench:long
+2025-03-31 22:37:39,784 Cleaning registries for queue: home-victor-Projeto-frappe-bench:short
+2025-03-31 22:37:39,785 Cleaning registries for queue: home-victor-Projeto-frappe-bench:default
+2025-03-31 22:37:39,787 Cleaning registries for queue: home-victor-Projeto-frappe-bench:long
+2025-03-31 22:49:35,068 Worker 25fa9436c8eb41c992b444e8142808c3 [PID 37121]: warm shut down requested
+2025-03-31 22:49:38,771 Worker rq:worker:14bc43a861554a40a14a613f2549f7f7 started with PID 47217, version 1.15.1
+2025-03-31 22:49:38,772 Subscribing to channel rq:pubsub:14bc43a861554a40a14a613f2549f7f7
+2025-03-31 22:49:38,774 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 22:52:46,863 Worker 14bc43a861554a40a14a613f2549f7f7 [PID 47217]: warm shut down requested
+2025-03-31 22:52:46,867 Unsubscribing from channel rq:pubsub:14bc43a861554a40a14a613f2549f7f7
+2025-03-31 22:52:57,933 Worker rq:worker:cbd50462b1d140ea85099f8f17ebbff9 started with PID 48715, version 1.15.1
+2025-03-31 22:52:57,933 Subscribing to channel rq:pubsub:cbd50462b1d140ea85099f8f17ebbff9
+2025-03-31 22:52:57,938 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 22:52:57,940 Cleaning registries for queue: home-victor-Projeto-frappe-bench:short
+2025-03-31 22:52:57,952 Cleaning registries for queue: home-victor-Projeto-frappe-bench:default
+2025-03-31 22:52:57,956 Cleaning registries for queue: home-victor-Projeto-frappe-bench:long
+2025-03-31 22:54:37,220 Worker cbd50462b1d140ea85099f8f17ebbff9 [PID 48715]: warm shut down requested
+2025-03-31 22:54:37,222 Unsubscribing from channel rq:pubsub:cbd50462b1d140ea85099f8f17ebbff9
+2025-03-31 22:54:43,253 Worker rq:worker:5ec98900d3b8471a9f84d70b23d96fd1 started with PID 49600, version 1.15.1
+2025-03-31 22:54:43,253 Subscribing to channel rq:pubsub:5ec98900d3b8471a9f84d70b23d96fd1
+2025-03-31 22:54:43,255 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 22:56:12,362 Worker 5ec98900d3b8471a9f84d70b23d96fd1 [PID 49600]: warm shut down requested
+2025-03-31 22:56:12,365 Unsubscribing from channel rq:pubsub:5ec98900d3b8471a9f84d70b23d96fd1
+2025-03-31 22:57:55,611 Worker rq:worker:15c001df60b14a8794390e87c5277bb0 started with PID 50583, version 1.15.1
+2025-03-31 22:57:55,611 Subscribing to channel rq:pubsub:15c001df60b14a8794390e87c5277bb0
+2025-03-31 22:57:55,613 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 23:00:24,022 Worker 15c001df60b14a8794390e87c5277bb0 [PID 50583]: warm shut down requested
+2025-03-31 23:00:24,024 Unsubscribing from channel rq:pubsub:15c001df60b14a8794390e87c5277bb0
+2025-03-31 23:00:29,053 Worker rq:worker:ac6659b8efd349058950018f1c126dbf started with PID 51663, version 1.15.1
+2025-03-31 23:00:29,053 Subscribing to channel rq:pubsub:ac6659b8efd349058950018f1c126dbf
+2025-03-31 23:00:29,057 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 23:02:57,583 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Agenda', 'name': '2rl8mp1r1i'}, method='frappe.model.delete_doc.delete_dynamic_links', site='agenda.localhost', user='Administrator') (agenda.localhost::551359f1-5d65-4a4d-a6c0-f924d44195f0)
+2025-03-31 23:02:57,818 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::551359f1-5d65-4a4d-a6c0-f924d44195f0)
+2025-03-31 23:02:57,818 Result is kept for 600 seconds
+2025-03-31 23:07:00,167 Worker ac6659b8efd349058950018f1c126dbf [PID 51663]: warm shut down requested
+2025-03-31 23:07:04,421 Worker rq:worker:58e49dee230f42e58c4adba8a7e655c0 started with PID 55324, version 1.15.1
+2025-03-31 23:07:04,422 Subscribing to channel rq:pubsub:58e49dee230f42e58c4adba8a7e655c0
+2025-03-31 23:07:04,423 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 23:07:17,163 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Agenda', 'name': 'nn51skbefa'}, method='frappe.model.delete_doc.delete_dynamic_links', site='agenda.localhost', user='Administrator') (agenda.localhost::7f93b92a-fa2b-4a73-be08-fbfe98baca01)
+2025-03-31 23:07:17,473 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::7f93b92a-fa2b-4a73-be08-fbfe98baca01)
+2025-03-31 23:07:17,473 Result is kept for 600 seconds
+2025-03-31 23:13:09,243 Worker 58e49dee230f42e58c4adba8a7e655c0 [PID 55324]: warm shut down requested
+2025-03-31 23:13:09,245 Unsubscribing from channel rq:pubsub:58e49dee230f42e58c4adba8a7e655c0
+2025-03-31 23:13:36,836 Worker rq:worker:55fc1c5bf5554c9bab0804f8aed56f16 started with PID 56742, version 1.15.1
+2025-03-31 23:13:36,836 Subscribing to channel rq:pubsub:55fc1c5bf5554c9bab0804f8aed56f16
+2025-03-31 23:13:36,838 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 23:13:36,839 Cleaning registries for queue: home-victor-Projeto-frappe-bench:short
+2025-03-31 23:13:36,844 Cleaning registries for queue: home-victor-Projeto-frappe-bench:default
+2025-03-31 23:13:36,848 Cleaning registries for queue: home-victor-Projeto-frappe-bench:long
+2025-03-31 23:15:57,206 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: paloma@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='agenda.localhost', user='Administrator') (agenda.localhost::100363df-da34-42b2-ba28-fd6fcb9db3ba)
+2025-03-31 23:15:58,567 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::100363df-da34-42b2-ba28-fd6fcb9db3ba)
+2025-03-31 23:15:58,568 Result is kept for 600 seconds
+2025-03-31 23:15:58,598 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'paloma@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='agenda.localhost', user='Administrator') (agenda.localhost::b5f4bee7-3a66-42a4-a67a-70e6be23d0fd)
+2025-03-31 23:15:59,100 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::b5f4bee7-3a66-42a4-a67a-70e6be23d0fd)
+2025-03-31 23:15:59,101 Result is kept for 600 seconds
+2025-03-31 23:21:59,483 Worker 55fc1c5bf5554c9bab0804f8aed56f16 [PID 56742]: warm shut down requested
+2025-03-31 23:21:59,498 Unsubscribing from channel rq:pubsub:55fc1c5bf5554c9bab0804f8aed56f16
+2025-03-31 23:28:22,045 Worker rq:worker:46c190c8cb454013b0669413b0cc2d51 started with PID 65174, version 1.15.1
+2025-03-31 23:28:22,046 Subscribing to channel rq:pubsub:46c190c8cb454013b0669413b0cc2d51
+2025-03-31 23:28:22,049 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 23:28:43,295 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Agenda', 'name': '27ttcaruf7'}, method='frappe.model.delete_doc.delete_dynamic_links', site='agenda.localhost', user='Administrator') (agenda.localhost::1bf8d3e1-a276-469d-b200-67a15c816808)
+2025-03-31 23:28:43,669 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::1bf8d3e1-a276-469d-b200-67a15c816808)
+2025-03-31 23:28:43,670 Result is kept for 600 seconds
+2025-03-31 23:28:50,669 home-victor-Projeto-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Agenda', 'name': 'm4no6jk6d7'}, method='frappe.model.delete_doc.delete_dynamic_links', site='agenda.localhost', user='Administrator') (agenda.localhost::75479498-2cd7-42bd-b5e6-86a45bc83eda)
+2025-03-31 23:28:50,878 home-victor-Projeto-frappe-bench:default: Job OK (agenda.localhost::75479498-2cd7-42bd-b5e6-86a45bc83eda)
+2025-03-31 23:28:50,878 Result is kept for 600 seconds
+2025-03-31 23:30:26,984 Worker 46c190c8cb454013b0669413b0cc2d51 [PID 65174]: warm shut down requested
+2025-03-31 23:30:26,992 Unsubscribing from channel rq:pubsub:46c190c8cb454013b0669413b0cc2d51
+2025-03-31 23:30:30,436 Worker rq:worker:2843bb6f822d49b496b1f207b0bc5d0b started with PID 66700, version 1.15.1
+2025-03-31 23:30:30,437 Subscribing to channel rq:pubsub:2843bb6f822d49b496b1f207b0bc5d0b
+2025-03-31 23:30:30,438 *** Listening on home-victor-Projeto-frappe-bench:short, home-victor-Projeto-frappe-bench:default, home-victor-Projeto-frappe-bench:long...
+2025-03-31 23:30:30,439 Cleaning registries for queue: home-victor-Projeto-frappe-bench:short
+2025-03-31 23:30:30,441 Cleaning registries for queue: home-victor-Projeto-frappe-bench:default
+2025-03-31 23:30:30,443 Cleaning registries for queue: home-victor-Projeto-frappe-bench:long
+2025-03-31 23:33:57,934 Worker 2843bb6f822d49b496b1f207b0bc5d0b [PID 66700]: warm shut down requested
+2025-03-31 23:33:57,936 Unsubscribing from channel rq:pubsub:2843bb6f822d49b496b1f207b0bc5d0b

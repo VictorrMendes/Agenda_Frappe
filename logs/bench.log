@@ -1,0 +1,115 @@
+2025-03-31 21:34:43,037 DEBUG cd frappe-bench && python3 -m venv env
+2025-03-31 21:34:47,684 DEBUG cd frappe-bench && /home/victor/Projeto/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-31 21:34:50,141 DEBUG cd frappe-bench && /home/victor/Projeto/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-03-31 21:34:51,840 LOG Getting frappe
+2025-03-31 21:34:51,840 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-03-31 21:34:56,604 LOG Installing frappe
+2025-03-31 21:34:56,604 DEBUG cd /home/victor/Projeto/frappe-bench && /home/victor/Projeto/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/victor/Projeto/frappe-bench/apps/frappe 
+2025-03-31 21:35:44,631 DEBUG cd /home/victor/Projeto/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-31 21:36:55,207 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 21:36:55,212 DEBUG cd frappe-bench && bench build
+2025-03-31 21:36:55,551 INFO /home/victor/.local/bin/bench build
+2025-03-31 21:37:25,791 LOG setting up backups
+2025-03-31 21:37:25,848 LOG backups were set up
+2025-03-31 21:37:25,848 INFO Bench frappe-bench initialized
+2025-03-31 21:42:46,198 INFO /home/victor/.local/bin/bench find .
+2025-03-31 21:42:49,864 INFO /home/victor/.local/bin/bench new-app scheduling_system
+2025-03-31 21:42:49,871 LOG creating new app scheduling_system
+2025-03-31 21:44:48,335 LOG Installing scheduling_system
+2025-03-31 21:44:48,337 DEBUG cd /home/victor/Projeto/frappe-bench && /home/victor/Projeto/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/victor/Projeto/frappe-bench/apps/scheduling_system 
+2025-03-31 21:44:51,506 DEBUG bench build --app scheduling_system
+2025-03-31 21:44:51,725 INFO /home/victor/.local/bin/bench build --app scheduling_system
+2025-03-31 21:44:55,002 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 21:52:08,254 INFO /home/victor/.local/bin/bench start
+2025-03-31 21:52:08,691 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 21:52:08,705 INFO /home/victor/.local/bin/bench watch
+2025-03-31 21:52:08,712 INFO /home/victor/.local/bin/bench worker
+2025-03-31 21:52:08,729 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 21:52:27,812 INFO /home/victor/.local/bin/bench start
+2025-03-31 21:52:28,205 INFO /home/victor/.local/bin/bench worker
+2025-03-31 21:52:28,284 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 21:52:28,287 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 21:52:28,317 INFO /home/victor/.local/bin/bench watch
+2025-03-31 21:56:12,099 INFO /home/victor/.local/bin/bench new-site agenda.localhost
+2025-03-31 22:00:15,406 INFO /home/victor/.local/bin/bench use agenda.localhost
+2025-03-31 22:00:33,217 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:00:33,662 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 22:00:33,667 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:00:33,693 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:00:33,726 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:03:09,358 INFO /home/victor/.local/bin/bench --site agenda.localhost install-app scheduling_system
+2025-03-31 22:03:53,218 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:03:53,593 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 22:03:53,599 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:03:53,606 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:03:53,640 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:08:20,057 INFO /home/victor/.local/bin/bench --site agenda.localhost backup
+2025-03-31 22:10:32,031 INFO /home/victor/.local/bin/bench set-config -g developer_mode true
+2025-03-31 22:10:38,661 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:10:39,018 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:10:39,030 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 22:10:39,038 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:10:39,042 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:35:20,623 INFO /home/victor/.local/bin/bench mariadb
+2025-03-31 22:36:26,917 INFO /home/victor/.local/bin/bench mariadb
+2025-03-31 22:49:37,770 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:49:38,184 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 22:49:38,190 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:49:38,210 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:49:38,214 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:52:52,647 INFO /home/victor/.local/bin/bench restart
+2025-03-31 22:52:52,658 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 22:52:57,079 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:52:57,442 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:52:57,451 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 22:52:57,454 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:52:57,468 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:54:40,309 INFO /home/victor/.local/bin/bench restart
+2025-03-31 22:54:40,319 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 22:54:42,372 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:54:42,744 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:54:42,746 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:54:42,751 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 22:54:42,874 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:56:14,909 INFO /home/victor/.local/bin/bench console
+2025-03-31 22:57:51,926 INFO /home/victor/.local/bin/bench restart
+2025-03-31 22:57:51,935 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 22:57:54,623 INFO /home/victor/.local/bin/bench start
+2025-03-31 22:57:55,017 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 22:57:55,048 INFO /home/victor/.local/bin/bench worker
+2025-03-31 22:57:55,072 INFO /home/victor/.local/bin/bench watch
+2025-03-31 22:57:55,111 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 23:00:26,463 INFO /home/victor/.local/bin/bench restart
+2025-03-31 23:00:26,474 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 23:00:28,157 INFO /home/victor/.local/bin/bench start
+2025-03-31 23:00:28,502 INFO /home/victor/.local/bin/bench watch
+2025-03-31 23:00:28,509 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 23:00:28,533 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 23:00:28,575 INFO /home/victor/.local/bin/bench worker
+2025-03-31 23:07:01,953 INFO /home/victor/.local/bin/bench restart
+2025-03-31 23:07:01,962 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 23:07:03,574 INFO /home/victor/.local/bin/bench start
+2025-03-31 23:07:03,942 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 23:07:03,960 INFO /home/victor/.local/bin/bench watch
+2025-03-31 23:07:03,966 INFO /home/victor/.local/bin/bench worker
+2025-03-31 23:07:03,987 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 23:13:21,394 INFO /home/victor/.local/bin/bench migrate
+2025-03-31 23:13:29,830 INFO /home/victor/.local/bin/bench restart
+2025-03-31 23:13:29,841 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 23:13:35,911 INFO /home/victor/.local/bin/bench start
+2025-03-31 23:13:36,275 INFO /home/victor/.local/bin/bench watch
+2025-03-31 23:13:36,276 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 23:13:36,289 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 23:13:36,348 INFO /home/victor/.local/bin/bench worker
+2025-03-31 23:28:18,290 INFO /home/victor/.local/bin/bench restart
+2025-03-31 23:28:18,299 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-31 23:28:20,801 INFO /home/victor/.local/bin/bench start
+2025-03-31 23:28:21,221 INFO /home/victor/.local/bin/bench watch
+2025-03-31 23:28:21,232 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 23:28:21,286 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 23:28:21,409 INFO /home/victor/.local/bin/bench worker
+2025-03-31 23:30:29,248 INFO /home/victor/.local/bin/bench start
+2025-03-31 23:30:29,628 INFO /home/victor/.local/bin/bench schedule
+2025-03-31 23:30:29,698 INFO /home/victor/.local/bin/bench serve --port 8000
+2025-03-31 23:30:29,857 INFO /home/victor/.local/bin/bench worker
+2025-03-31 23:30:29,862 INFO /home/victor/.local/bin/bench watch
