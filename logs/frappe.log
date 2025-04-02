@@ -16,3 +16,9 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-meisxeo
 2025-03-31 23:31:10,072 ERROR frappe New Exception collected in error log
 Site: agenda.localhost
 Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-dmletcpvlt","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"victor","start_date":"2025-04-01 06:10:00","duration":"00:30:00","description":"corte","seller":"victo.mendes.souza@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-01 22:34:50,521 ERROR frappe New Exception collected in error log
+Site: agenda.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-qpcrqiwqme","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"nagine","start_date":"2025-04-02 06:21:00","description":"Corte de cabelo","seller":"victo.mendes.souza@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-01 22:35:07,141 ERROR frappe New Exception collected in error log
+Site: agenda.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-qpcrqiwqme","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"nagine","start_date":"2025-04-02 06:21:00","description":"Corte de cabelo","seller":"paloma@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
