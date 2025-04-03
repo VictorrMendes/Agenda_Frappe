@@ -22,3 +22,15 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-qpcrqiw
 2025-04-01 22:35:07,141 ERROR frappe New Exception collected in error log
 Site: agenda.localhost
 Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-qpcrqiwqme","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"nagine","start_date":"2025-04-02 06:21:00","description":"Corte de cabelo","seller":"paloma@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-02 21:18:14,041 ERROR frappe New Exception collected in error log
+Site: agenda.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-qqqzdezfoy","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"eu","start_date":"2025-04-02 06:00:00","description":"a","seller":"victo.mendes.souza@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-02 22:19:41,305 ERROR frappe New Exception collected in error log
+Site: agenda.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-qqqzdezfoy","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"eu","start_date":"2025-04-02 06:00:00","description":"a","seller":"victo.mendes.souza@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-02 22:30:09,693 ERROR frappe New Exception collected in error log
+Site: agenda.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-tctgzmupmq","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"lala","start_date":"2025-04-02 07:00:00","description":"a","seller":"victo.mendes.souza@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-02 22:31:51,928 ERROR frappe New Exception collected in error log
+Site: agenda.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Agenda","name":"new-agenda-pyqmvghpvh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","start_date":"2025-04-02 07:22:00","description":"aaaa","seller":"victo.mendes.souza@gmail.com","client_name":"aaa"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
