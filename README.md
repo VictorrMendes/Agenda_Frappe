@@ -78,16 +78,20 @@ from datetime import datetime, timedelta
 
 class Agenda(Document):
     def validate(self):
-        self.validate_seller_availability()
+        self.validate_seller_availability()     
 
     def validate_seller_availability(self):
         """
         Verificação se o vendedor já possui um compromisso no mesmo horário e período.
         """
 
-        # Validação e conversão
+
+        # Validação e conversão de start_date e duration
+
+        #start_date para datetime 
         start_datetime = datetime.strptime(self.start_date, "%Y-%m-%d %H:%M:%S")
 
+        
         try:
             if ":" in self.duration:
                 duration_parts = [int(x) for x in self.duration.split(":")]
@@ -113,13 +117,16 @@ class Agenda(Document):
             },
             fields=["name", "start_date", "end_date"]
         )
-        
+
         #Em caso de ter compromissos existentes, exibir mensagem de erro relatando o conflito
         if existing_appointments:
-            frappe.throw(_(f"Erro de horário! O {self.seller} já possui um compromisso neste horário."))
+            frappe.throw(_(f"Horário indisponível. O {self.seller} já possui um compromisso neste horário."))
 
+
+        #Garantir que  o end_date seja preenchido corretamente com base no start_date e duration
     def before_save(self):
         if self.start_date and self.duration:
+
             # Convertendo start_date para datetime
             start_datetime = datetime.strptime(self.start_date, "%Y-%m-%d %H:%M:%S")
             
