@@ -1,0 +1,86 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-03-31 22:12:29.206807",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "client_name",
+        "start_date",
+        "end_date",
+        "duration",
+        "description",
+        "seller",
+        "status"
+    ],
+    "fields": [
+        {
+            "fieldname": "client_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Client Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "start_date",
+            "fieldtype": "Datetime",
+            "in_list_view": 1,
+            "label": "Start date",
+            "reqd": 1
+        },
+        {
+            "fieldname": "end_date",
+            "fieldtype": "Datetime",
+            "label": "End date",
+            "read_only": 1
+        },
+        {
+            "fieldname": "duration",
+            "fieldtype": "Time",
+            "label": "Duration"
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Small Text",
+            "label": "Description"
+        },
+        {
+            "fieldname": "seller",
+            "fieldtype": "Link",
+            "label": "Seller",
+            "options": "User",
+            "reqd": 1
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "Scheduled\nFinished\nCanceled"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-03-31 23:20:44.209186",
+    "modified_by": "Administrator",
+    "module": "Scheduling System",
+    "name": "Agenda",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}
